@@ -22,5 +22,23 @@ namespace SystemInfoCollector.Util
 
             return dic;
         }
+
+        internal static List<Dictionary<string, object>> GetWmiPropertyList(string wmiObject)
+        {
+            List<Dictionary<string, object>> list = new List<Dictionary<string, object>>();
+            ManagementObjectSearcher managementObjectSearcher = new ManagementObjectSearcher("select * from " + wmiObject);
+
+            foreach (ManagementObject managementObject in managementObjectSearcher.Get())
+            {
+                Dictionary<string, object> dic = new Dictionary<string, object>();
+                foreach (PropertyData property in managementObject.Properties)
+                {
+                    dic.Add(property.Name, property.Value ?? null);
+                }
+                list.Add(dic);
+            }
+
+            return list;
+        }
     }
 }

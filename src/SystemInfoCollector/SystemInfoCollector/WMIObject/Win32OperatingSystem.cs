@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SystemInfoCollector.WMIObject
 {
-    public class OperatingSystemInfo
+    public class Win32OperatingSystem
     {
         public string BootDevice { get; set; }
         public string BuildNumber { get; set; }

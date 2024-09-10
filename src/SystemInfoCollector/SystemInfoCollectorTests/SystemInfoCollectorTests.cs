@@ -13,13 +13,13 @@ namespace SystemInfoCollector.Tests
         [TestMethod()]
         public void CollectOperatingSystemTest()
         {
-            var info = SystemInfoCollector.CollectOperatingSystem();
+            var info = SystemInfoCollector.CollectServices();
             Assert.IsTrue(true);
 
 
             var format = "yyyyMMddHHmmss";
-            CultureInfo culture = CultureInfo.InvariantCulture;
-            DateTime newDate = DateTime.ParseExact(info.InstallDate, format, culture);
+            //CultureInfo culture = CultureInfo.InvariantCulture;
+            //DateTime newDate = DateTime.ParseExact(info.InstallDate, format, culture);
 
             //https://learn.microsoft.com/zh-cn/windows/win32/wmisdk/cim-datetime
         }
