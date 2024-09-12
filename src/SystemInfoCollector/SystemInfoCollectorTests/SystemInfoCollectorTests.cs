@@ -13,7 +13,7 @@ namespace SystemInfoCollector.Tests
         [TestMethod()]
         public void CollectOperatingSystemTest()
         {
-            var info = SystemInfoCollector.CollectServices();
+            var info = SystemInfoManager.CollectServices();
             Assert.IsTrue(true);
 
 

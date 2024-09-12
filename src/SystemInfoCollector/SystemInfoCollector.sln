@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemInfoCollector", "SystemInfoCollector\SystemInfoCollector.csproj", "{E8889CF2-6F58-43D6-8BC0-087208104B32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystemInfoCollector", "SystemInfoCollector\SystemInfoCollector.csproj", "{E8889CF2-6F58-43D6-8BC0-087208104B32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemInfoCollectorTests", "SystemInfoCollectorTests\SystemInfoCollectorTests.csproj", "{B96F7443-8D57-447A-84B4-CA106A43D863}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystemInfoCollectorTests", "SystemInfoCollectorTests\SystemInfoCollectorTests.csproj", "{B96F7443-8D57-447A-84B4-CA106A43D863}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemInfoCollectorDemo", "SystemInfoCollectorDemo\SystemInfoCollectorDemo.csproj", "{AB9C5CFF-F26B-42D2-80FD-79ABA488D9EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B96F7443-8D57-447A-84B4-CA106A43D863}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B96F7443-8D57-447A-84B4-CA106A43D863}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B96F7443-8D57-447A-84B4-CA106A43D863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB9C5CFF-F26B-42D2-80FD-79ABA488D9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB9C5CFF-F26B-42D2-80FD-79ABA488D9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB9C5CFF-F26B-42D2-80FD-79ABA488D9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB9C5CFF-F26B-42D2-80FD-79ABA488D9EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

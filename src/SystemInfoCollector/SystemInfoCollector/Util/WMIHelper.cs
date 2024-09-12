@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Management;
 using System.Text;
 
-namespace SystemInfoCollector.Util
+namespace TianXiaTech.SystemInfoCollector.Util
 {
     internal class WMIHelper
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace SystemInfoCollector.Util
+namespace TianXiaTech.SystemInfoCollector.Util
 {
     internal static class StringRegexExtension
     {

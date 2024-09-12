@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SystemInfoCollector.WMIObject
+namespace TianXiaTech.SystemInfoCollector.WMIObject
 {
     public class Win32Service
     {

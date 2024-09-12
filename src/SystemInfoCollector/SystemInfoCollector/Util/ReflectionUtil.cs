@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SystemInfoCollector.Util
+namespace TianXiaTech.SystemInfoCollector.Util
 {
     public class ReflectionUtil
     {
